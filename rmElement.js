@@ -31,8 +31,6 @@ let removeElement = function(nums, val) {
     nums.sort()
 
     k = nums.length - count
-    
-    console.log(`nums = ${nums}`)
 
     return k
 };
